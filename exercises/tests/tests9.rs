@@ -36,7 +36,7 @@ extern "Rust" {
 
 mod Foo {
     #[no_mangle]
-    fn my_demo_function(a: u32) -> u32 {
+    pub fn my_demo_function(a: u32) -> u32 {
         a
     }
 }
@@ -44,6 +44,11 @@ mod Foo {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[no_mangle] // Added line 1
+    pub fn my_demo_function(a: u32) -> u32 {
+        unsafe { Foo::my_demo_function(a) }
+    }
 
     #[test]
     fn test_success() {
@@ -53,11 +58,3 @@ mod tests {
         }
     }
 }
-
-
-        // The externally imported functions are UNSAFE by default
-        // because of untrusted source of other languages. You may
-        // wrap them in safe Rust APIs to ease the burden of callers.
-        //
-        // SAFETY: We know those functions are aliases of a safe
-        // Rust function.
