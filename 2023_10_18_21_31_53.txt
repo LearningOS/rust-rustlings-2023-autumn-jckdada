@@ -1,0 +1,102 @@
+✅ intro2 pass
+✅ vecs2 pass
+✅ variables1 pass
+❌ move_semantics1 points 0/1
+✅ variables2 pass
+❌ move_semantics2 points 0/1
+✅ variables3 pass
+❌ move_semantics3 points 0/1
+✅ variables4 pass
+❌ move_semantics4 points 0/1
+❌ move_semantics5 points 0/1
+❌ move_semantics6 points 0/1
+✅ variables5 pass
+❌ structs1 points 0/1
+✅ variables6 pass
+✅ functions1 pass
+❌ structs2 points 0/1
+✅ functions2 pass
+❌ structs3 points 0/1
+✅ functions3 pass
+✅ enums1 pass
+✅ functions4 pass
+✅ enums2 pass
+✅ functions5 pass
+✅ enums3 pass
+✅ if1 pass
+❌ strings1 points 0/1
+❌ strings2 points 0/1
+✅ if2 pass
+❌ strings3 points 0/1
+❌ strings4 points 0/1
+❌ modules1 points 0/1
+❌ modules2 points 0/1
+✅ if3 pass
+❌ modules3 points 0/1
+✅ quiz1 pass
+✅ hashmaps1 pass
+❌ primitive_types1 points 0/1
+❌ primitive_types2 points 0/1
+❌ primitive_types3 points 0/1
+❌ primitive_types4 points 0/1
+❌ primitive_types5 points 0/1
+❌ primitive_types6 points 0/1
+✅ hashmaps2 pass
+✅ vecs1 pass
+✅ hashmaps3 pass
+✅ iterators1 pass
+✅ quiz2 pass
+❌ options1 points 0/1
+✅ iterators2 pass
+❌ options2 points 0/1
+❌ options3 points 0/1
+✅ iterators3 pass
+✅ errors1 pass
+✅ iterators4 pass
+✅ errors2 pass
+✅ errors3 pass
+✅ iterators5 pass
+✅ errors4 pass
+❌ box1 points 0/1
+✅ errors5 pass
+❌ rc1 points 0/1
+❌ arc1 points 0/1
+❌ cow1 points 0/1
+✅ errors6 pass
+❌ threads1 points 0/1
+✅ generics1 pass
+❌ threads2 points 0/1
+❌ threads3 points 0/1
+✅ generics2 pass
+✅ macros1 pass
+❌ traits1 points 0/1
+❌ traits2 points 0/1
+✅ macros2 pass
+❌ traits3 points 0/1
+❌ traits4 points 0/1
+❌ traits5 points 0/1
+✅ macros3 pass
+✅ macros4 pass
+✅ quiz3 pass
+✅ lifetimes1 pass
+✅ lifetimes2 pass
+✅ lifetimes3 pass
+❌ tests1 points 0/1
+❌ tests2 points 0/1
+❌ tests3 points 0/1
+❌ tests4 points 0/1
+✅ as_ref_mut pass
+❌ tests5 points 0/1
+❌ tests6 points 0/1
+❌ tests7 points 0/1
+✅ clippy1 pass
+❌ tests8 points 0/1
+✅ clippy2 pass
+❌ tests9 points 0/1
+✅ from_into pass
+✅ clippy3 pass
+✅ using_as pass
+✅ from_str pass
+✅ try_from_into pass
+
+Points: 54/100
